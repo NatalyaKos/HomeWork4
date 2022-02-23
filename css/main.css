@@ -1,0 +1,130 @@
+@font-face {
+    font-family: Nunito-Regular;
+    src: url("../fonts/Nunito-Regular.ttf");
+
+}@font-face {
+    font-family: Nunito-Bold;
+    src: url("../fonts/Nunito-Bold.ttf");
+}
+
+body {
+    margin: 0;
+    font-family: Nunito-Regular, sans-serif;
+    background: linear-gradient(to right, #FFFFFB 50%, #F8F8FA 50%);
+    position: relative;
+}
+
+#main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#form {
+    padding-bottom: 191px;
+    background-size: 100%;
+}
+
+#logo {
+    font-family: Nunito-Bold,sans-serif;
+    font-weight: 900;
+    position: absolute;
+    font-size: 36px;
+    line-height: 49px;
+    letter-spacing: -0.015em;
+    text-transform: uppercase;
+    color: #000000;
+    top: 27px;
+    text-decoration: none;
+    width: 100%;
+    text-align: center;
+}
+
+#red {
+    color: red;
+    font-size: 48px;
+}
+
+#title {
+    font-family: Nunito-Bold,sans-serif;
+    font-size: 36px;
+    line-height: 49px;
+    color: #000000;
+    margin-top: 194px;
+}
+
+#text {
+    font-family: Nunito-Bold,sans-serif;
+    font-size: 22px;
+    line-height: 27px;
+    color: #636363;
+    max-width: 496px;
+    margin-top: 7px;
+    margin-bottom: 42px;
+}
+
+.form-title {
+    font-family: Nunito-Bold,sans-serif;
+    font-size: 16px;
+    line-height: 27px;
+    color: #C6C6C4;
+    margin-top: 20px;
+}
+
+.form-text input {
+    font-family: Nunito-Bold,sans-serif;
+    font-size: 20px;
+    line-height: 27px;
+    color: #323232;
+    box-sizing: border-box;
+    background: #FFFFFB;
+    border: none;
+    border-bottom: 1px solid #C6C6C4;
+    width: 452px;
+    outline: none;
+}
+
+#form-checkbox {
+    margin-top: 30px;
+}
+
+#chek{
+    background-color: blue;
+}
+
+.form-text-about {
+    font-family: Nunito-Bold,sans-serif;
+    font-size: 16px;
+    line-height: 27px;
+    color: #636363;
+}
+
+#form-button {
+    text-align: center;
+}
+
+#form-button a{
+    text-decoration: none;
+}
+
+#btn {
+    background: #DD3142;
+    border-radius: 40px;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFFFFF;
+    padding: 21px 68px 25px;
+    outline: none;
+    margin-top: 40px;
+    margin-bottom: 44px;
+    border: none;
+}
+
+#image{
+    margin-left: 34px;
+}
+
+#image img {
+    margin: 0 auto;
+}
